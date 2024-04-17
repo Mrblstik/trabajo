@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(109, 0, 0);
+    background-image:url('../img/fondo_camuflaje.jpg');
+}
+
+.header {
+    background-color: rgb(109, 0, 0);;
+    box-shadow: 0 2px 4px rgb(109, 0, 0);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: black; /* Green */
+    color: gold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #000000;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid rgb(109, 0, 0);;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: black;
+    color: gold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-button:hover {
+    background-color: rgb(109, 0, 0);;
+}
+
+.shopping-cart {
+    background-color:black;
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px gold;
+}
+
+h2 {
+    color: gold;
+}
+
