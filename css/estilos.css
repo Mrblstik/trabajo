@@ -10,8 +10,9 @@ header {
     color: white;
     padding: 40px;
     display: flex;
-    justify-content: space-between; /* Alinea los elementos al extremo */
+    justify-content: center; /* Alinea los elementos al extremo */
     align-items: center; /* Alinea verticalmente los elementos */
+    position: relative;
 }
 
 h1 {
@@ -25,19 +26,23 @@ h1 {
     /* Agrega cualquier otro estilo necesario para la imagen */
     margin-left: 05px; /* Ajusta el margen izquierdo */
 }
+
 section {
     padding: 20px;
     margin: 20px;
     background-color: black;
     border-radius: 10px;
 }
+
 h2 {
     color: white;
 }
+
 p {
     line-height: 1.6;
     color: white;
 }
+
 img {
     max-width: 100%;
     height: auto;
@@ -72,3 +77,31 @@ a.icon {
     font-size: 24px; /* Tamaño del ícono */
     color: white; /* Color amarillo */
 }
+
+/* Estilos para el icono de perfil */
+.profile-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; /* Agrega un margen a la derecha para separarlo del carrito */
+}
+
+.profile-icon button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.profile-icon button:hover {
+    text-decoration: underline;
+}
+
+.profile-icon i {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 5px;
+}
+
