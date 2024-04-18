@@ -9,8 +9,8 @@ body {
 }
 
 header {
-    background-color: rgb(109, 0, 0);
-    color: gold;
+    background-color: #333;
+    color: white;
     padding: 40px;
     display: flex;
     justify-content: flex-start; 
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-    color: gold;
+    color: white;
 }
 
 p {
@@ -49,7 +49,7 @@ p {
     margin: 10px;
     border: none;
     border-radius: 5px;
-    background-color: gold;
+    background-color: white;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -57,21 +57,21 @@ p {
 }
 
 .button-container button:hover {
-    background-color: rgb(109, 0, 0);
+    background-color: #333;
 }
 
 /* Estilos específicos para el catálogo de productos */
 .pistola-box {
     width: 200px;
-    background-color: rgb(109, 0, 0);
-    border: 3px solid rgb(109, 0, 0);
+    background-color: #333;
+    border: 3px solid #333;
     margin: 10px;
     padding: 10px;
     float: left;
     text-align: center;
     cursor: pointer;
     transition: box-shadow 0.3s;
-    color: gold;
+    color: white;
 }
 
 .pistola-box img {
@@ -84,7 +84,7 @@ p {
 }
 
 .pistola-box:hover {
-    box-shadow: 0 0 10px gold;
+    box-shadow: 0 0 10px white;
 }
 
 
@@ -124,7 +124,7 @@ p {
     margin: 10px;
     border: none;
     border-radius: 5px;
-    background-color: gold;
+    background-color: white;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -132,7 +132,7 @@ p {
 }
 
 .button-container button:hover {
-    background-color: rgb(109, 0, 0);
+    background-color: #333;
 }
 
 
@@ -148,7 +148,7 @@ header {
     top: 10px;
     padding: 5px 15px;
     background-color: #000000;
-    color: gold;
+    color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -164,7 +164,7 @@ header {
 #miBoton {
     padding: 10px 20px;
     font-size: 16px;
-    color: gold;
+    color: white;
     background-color: #000000;
     border: none;
     border-radius: 5px;
@@ -173,7 +173,7 @@ header {
 }
 
 #miBoton:hover {
-    background-color: #ff0000;
+    background-color: #333;
 }
 
 

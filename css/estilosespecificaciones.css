@@ -27,13 +27,13 @@ body, html {
     margin-left: auto;
     margin-right: auto;
     padding: 20px; /* Añade relleno alrededor del cuadro de especificaciones */
-    border: 2px solid gold; /* Añade un borde al cuadro de especificaciones */
-    background-color: rgb(109, 0, 0); /* Agrega un fondo semi-transparente */
+    border: 2px solid white; /* Añade un borde al cuadro de especificaciones */
+    background-color: #333; /* Agrega un fondo semi-transparente */
 }
 .specs {
     font-size: 16px;
     text-align: left;
-    color: gold;
+    color: white;
 }
 .back-button-container {
     position: fixed;
@@ -43,7 +43,7 @@ body, html {
 .back-button, .cart-button {
     padding: 10px 20px;
     font-size: 16px;
-    color: gold;
+    color: white;
     background-color: #000000;
     border: none;
     border-radius: 5px;

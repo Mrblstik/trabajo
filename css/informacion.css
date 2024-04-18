@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: rgb(109, 0, 0);
-    color: gold;
+    background-color: #333;
+    color: white;
     padding: 20px;
     text-align: center;
     position: relative; /* Añadido para que el botón se posicione correctamente */
@@ -17,20 +17,20 @@ header {
     position: absolute;
     top: 10px; /* Ajusta la distancia desde la parte superior */
     right: 10px; /* Ajusta la distancia desde la derecha */
-    color: gold;
+    color: white;
     text-decoration: none;
 }
 
 .section-container {
     padding: 20px;
     margin: 20px;
-    background-color: rgb(109, 0, 0);
+    background-color: #333;
     border-radius: 10px;
-    color: gold;
+    color: white;
 }
 
 h2 {
-    color: gold;
+    color: white;
 }
 
 p {
@@ -47,7 +47,7 @@ p {
     margin: 10px;
     border: none;
     border-radius: 5px;
-    background-color: rgb(109, 0, 0);
+    background-color: #333;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
@@ -55,5 +55,5 @@ p {
 }
 
 .button-container button:hover {
-    background-color: rgb(109, 0, 0);
+    background-color: #333;
 }
